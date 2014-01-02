@@ -1,4 +1,4 @@
-$body-bg: f7f7f7;
+$body-bg: #f7f7f7;
 
 $navbar-border-radius: 0px;
 $navbar-height: 55px;
@@ -9,6 +9,10 @@ $brand-primary: #3498db;
 $navbar-default-link-active-color: #ffffff;
 $navbar-margin-bottom: 0px;
 
+
+
+$navbar-default-link-active-color: #444444;
+
 $navbar-default-toggle-icon-bar-bg: #3498db;
 $navbar-default-toggle-border-color: #3498db; 
 
@@ -18,8 +22,23 @@ $input-box-shadow: none;
 $badge-bg: #e74c3c;
 $badge-border-radius: 10px;
 
-@import 'bootstrap';
+$jumbotron-padding: 35px;
+$jumbotron-bg: #98989f;
 
+
+
+@import 'bootstrap';
+.navbar {
+padding-right: 15px;
+} 
+
+.jumbotron{
+	color: white;
+} 
+
+.alert { 
+	margin: 15px;
+}
 .navbar-brand{
 	font-weight: bold;
 }
