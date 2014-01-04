@@ -1,40 +1,40 @@
-$body-bg: #f7f7f7;
+$body-bg: #e3e3e3;
 
 $navbar-border-radius: 0px;
 $navbar-height: 55px;
-$navbar-default-bg: white;
-$navbar-default-brand-color: #3498db;
-$navbar-default-link-color: #3498db;
-$brand-primary: #3498db;
-$navbar-default-link-active-color: #ffffff;
+$navbar-default-bg: #ca3f3f;
+$navbar-default-color: #9dafc1;
+$brand-primary: #27ae60;
 $navbar-margin-bottom: 0px;
+$navbar-default-link-color: #ffffff;
+$navbar-default-link-hover-color: #81EB9B;
+$navbar-default-link-active-bg: #ca3f3f;
 
 
-
-$navbar-default-link-active-color: #444444;
-
-$navbar-default-toggle-icon-bar-bg: #3498db;
-$navbar-default-toggle-border-color: #3498db; 
 
 $input-border-radius: 2px;
 $input-box-shadow: none;
 
-$badge-bg: #e74c3c;
-$badge-border-radius: 10px;
+$badge-bg: #c0392b;
+$badge-border-radius: 5px;
 
 $jumbotron-padding: 35px;
-$jumbotron-bg: #98989f;
+$jumbotron-bg: #ffffff;
 
 
 
 @import 'bootstrap';
+
 .navbar {
-padding-right: 15px;
+	padding-right: 15px;
 } 
 
-.jumbotron{
-	color: white;
-} 
+.container-forms{
+	margin:auto;
+	padding:25px;
+	width: 50%;
+}
+
 
 .alert { 
 	margin: 15px;

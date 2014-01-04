@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-inverse" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -17,10 +17,13 @@
       <li><a href="#">Gatos</a></li>
     </ul>
     
+
     <ul class="nav navbar-nav navbar-right">
 
-      <% if user_signed_in? %>
-      <p class="navbar-text navbar-right">Signed in as Mark Otto <span class="badge">6</span> &nbsp; | &nbsp; <%= link_to "Log out", destroy_user_session_path, method: :delete %></p>
+     
+ <% if user_signed_in? %>
+      <li><p class="navbar-text navbar-right">Signed in as <%= link_to "Mark Otto", edit_user_registration_path %> &nbsp;<span class="badge">6</span> &nbsp; | </p></li>
+      <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
       <% else %>
 
       <li><%= link_to "Sign in", new_user_session_path %></li>
